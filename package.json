@@ -1,5 +1,5 @@
 {
-  "homepage": "",
+  "homepage": "https://Omaroovee.github.io/portfolio",
   "name": "Omaroovee.dev",
   "version": "1.0.0",
   "private": true,
@@ -25,7 +25,7 @@
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "node gen-medium-articles.js && react-scripts build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
