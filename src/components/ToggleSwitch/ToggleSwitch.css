@@ -3,6 +3,7 @@
   display: inline-block;
   width: 55px;
   height: 26px;
+  margin-right: 0.35em;
 }
 
 /* Fix visible slider checkbox */
