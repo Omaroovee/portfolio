@@ -30,7 +30,7 @@
 
 .education-text-school {
   margin: 0;
-  font-size: 28px;
+  font-size: 21px;
   font-weight: 700;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -93,7 +93,7 @@
     font-size: 16px;
   }
   .education-text-school {
-    font-size: 20px;
+    font-size: 13px;
   }
   .education-text-duration {
     font-size: 16px;

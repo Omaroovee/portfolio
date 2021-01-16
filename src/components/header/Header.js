@@ -28,9 +28,9 @@ function Header() {
           <li>
             <a href="#interests"><i className="fas fa-flask"></i>  Interests</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#blogs"><i className="fas fa-feather"></i>  Latest Blogs</a>
-          </li>
+          </li> */}
           {exp === true && (
             <li>
               <a href="#work"><i className="fas fa-briefcase"></i>  Work Experiences</a>

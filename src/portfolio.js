@@ -7,20 +7,19 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Sherif Abdel-Naby",
-  title: "Hello, I'm Sherif",
-  subTitle: emoji("Software Engineer; Loves anything that scales. I am generally interested in building Large-Scale Applications, Cloud Infrastructure, Data Infrastructure, Streaming Systems, SRE/DevOps, and Golang. Sometimes I write about them too."),
-  resumeLink: "https://drive.google.com/file/d/1s2LyB8_Y5RQnXJpHWj2OsrOYEpXDoEH9/view"
+  username: "Muhammad Omar",
+  title: "Hello, I'm Muhammad Omar aka (Omaroovee) ",
+  subTitle: emoji("Software Engineer; Loves anything that scales. I am generally interested in building Large-Scale Applications, Cloud Infrastructure, Data Infrastructure, Streaming Systems, Backend/DevOps, and Golang."),
+  resumeLink: "https://drive.google.com/file/d/1Xg0-UhjYjvHvzGFQldlKt4KF5HZV6ASr/view?usp=sharing"
 }
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  linkedin: "https://www.linkedin.com/in/sherifabdlnaby/",
-  twitter: "https://www.twitter.com/sherifabdlnaby",
-  github: "https://github.com/sherifabdlnaby",
-  gmail: "sherifabdlnaby@gmail.com",
-  medium: "https://medium.com/@sherifabdlnaby",
+  linkedin: "https://www.linkedin.com/in/Omaroovee/",
+  twitter: "https://www.twitter.com/Omaroovee",
+  github: "https://github.com/Omaroovee",
+  gmail: "Omaroovee@gmail.com",
 };
 
 // Your Skills Section
@@ -54,34 +53,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Kubernetes",
       image: require("./assets/images/kubernetes.png")
     },
-    {
-      skillName: "Kafka",
-      image: require("./assets/images/kafka.png")
-    },
-    {
-      skillName: "Prometheus",
-      image: require("./assets/images/prom.png")
-    },
-    {
-      skillName: "Spark",
-      image: require("./assets/images/spark.png")
-    },
-    {
-      skillName: "Flink",
-      image: require("./assets/images/Flink.png")
-    },
-    {
-      skillName: "Beam",
-      image: require("./assets/images/Beam.png")
-    },
-    {
-      skillName: "Hadoop",
-      image: require("./assets/images/Hadoop.png")
-    },
-    {
-      skillName: "Airflow",
-      image: require("./assets/images/Airflow.png")
-    }
   ]
 };
 
@@ -91,11 +62,11 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Cairo University",
-      logo: require("./assets/images/Cairo.png"),
+      schoolName: "High Institute of Computer Science and Information Systems 6th October",
+      logo: require("./assets/images/uni.jpg"),
       subHeader: "Bachelor's degree in Computer Science",
-      duration: "September 2015 - July 2019",
-      desc: "Graduated with Grade: Excellence with Honors.",
+      duration: "September 2014 - May 2018",
+      desc: "Graduated with Grade: Very Good.",
     }
   ]
 }
@@ -128,39 +99,20 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Levelset",
-      companylogo: require("./assets/images/levelset.jpg"),
-      date: "Jan 2019 – Oct 2019 (10mos)",
-      desc: "Working on Infrastructure Side along with DevOps specialization responsibilities.",
+      company: "NowPay",
+      companylogo: require("./assets/images/np.jpg"),
+      date: "Jan 2019 – Present (2 yrs 3 mos)",
+      desc: "Working on a product that helps to Improve the financial-wellness of corporate employees.",
       descBullets: [
-        "Implemented Centralized Logging System for All Company Services using Elastic Stack",
-        "Introduced A more sophisticated alerting system along with other observability practices and enhanced Alerting platform.",
-        "Worked in Packaging and Dockerzing most company Services and setting up plans to migrate to Kubernetes.",
-        "Had Experiences doing traditional DevOps duties",
-        "Experiences with Neo4J, Kafka, Elasticsearch and RabbitMQ."
+        "Manage infrastructure on AWS and ensure high availability and reliability of the application.",
+        "Develop, record, and maintain cutting edge web-based Nodejs applications.",
+        "Architect and implement new features.",
+        "Refactor, optimize, and improve the existing codebase for maintenance and scale.",
+        "Troubleshoot and fix bugs/flaws to ensure servers are running optimally.",
+        "Participate in all phases of the development life cycle.",
+        "Implement analytics and monitoring routines."
       ]
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Levelset",
-      companylogo: require("./assets/images/levelset.jpg"),
-      date: "Jul 2018 – Oct 2018",
-      descBullets: ["Introduced MVP for a centralized logging system using Elastic Stack."]
-    },
-    {
-      role: "Software Development Intern",
-      company: "El-Araby Group",
-      companylogo: require("./assets/images/araby.jpg"),
-      date: "Sep 2017 – Nov 2017",
-      desc: "Improving and refining parts within El-Araby e-commerce website; was also involved in designing, building, and testing a new website for El-Araby social platform."
-    },
-    {
-      role: "Summer Academy Intern",
-      company: "Microsoft",
-      companylogo: require("./assets/images/microsoft.jpg"),
-      date: "Jul 2017 – Sep 2017",
-      desc: "Developing an internal solution with the cooperation of Microsoft partners using Microsoft technologies and hosted on Azure. Being the team leader of the selected best team, I was offered an internship at El-Araby Group."
-    },
+    }
   ]
 };
 
@@ -169,7 +121,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "sherifabdlnaby", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "Omaroovee", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -265,15 +217,15 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+20 100 127 2160",
-  email_address: "Sherif Abdel-Naby"
+  number: "+20 155 277 7713",
+  email_address: "Omaroovee.gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "sherifabdlnaby"//Replace "twitter" with your twitter username without @
+  userName : "Omaroovee"//Replace "twitter" with your twitter username without @
 
 };
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

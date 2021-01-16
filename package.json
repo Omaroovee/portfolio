@@ -1,7 +1,7 @@
 {
-  "homepage": "https://sherif.dev/",
-  "name": "sherif.dev",
-  "version": "0.1.0",
+  "homepage": "",
+  "name": "Omaroovee.dev",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@apollo/react-hooks": "^3.1.4",
