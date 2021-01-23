@@ -1,5 +1,4 @@
 {
-  "homepage": "",
   "name": "Omaroovee.dev",
   "version": "1.0.0",
   "private": true,
@@ -24,7 +23,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-scripts start",
-    "build": "node gen-medium-articles.js && react-scripts build",
+    "build": "react-scripts build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -122,7 +122,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "Omaroovee", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
+  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
